@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Каталог</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header class="page-header">
@@ -63,7 +64,7 @@
           <h2 class="visually-hidden">Список фильтров</h2>
           <form class="filter-form" action="https://echo.htmlacademy.ru/" method="GET">
             <fieldset class="filter-fieldset">
-              <legend class="filter-legend">Инфраструктура:</legend>
+              <legend class="filter-title">Инфраструктура:</legend>
               <ul class="filter-list">
                 <li class="filter-item">
                   <label class="control">
@@ -207,9 +208,11 @@
               <div class="review-score">Рейтинг: 9,2</div>
             </li>
             </ul>
-          <button class="button hotel-card-show-more">
+          <div class="show-more">
+            <button class="button hotel-card-show-more">
             Загрузить еще
-          </button>
+            </button>
+          </div>
       </section>
         <ul class="pagination">
           <li class="pagination-item">
@@ -241,7 +244,7 @@
             </select>
             <button class="visually-hidden" type="submit">Показать гостинницы</button>
           </form>
-          <section class="subscription">
+          <section class="subscription-black">
             <h2 class="subscription-title">Подпишитесь на рассылку</h2>
             <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
             <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="POST">
