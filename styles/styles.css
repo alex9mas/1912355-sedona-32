@@ -2,8 +2,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src:
-    url("../fonts/ptsans-400.woff2") format("woff2");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -11,11 +10,9 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src:
-  url("../fonts/ptsans-700.woff2") format("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
-
 
 body {
   font-family: "PT Sans", sans-serif;
@@ -80,26 +77,21 @@ body {
   background: #FFFFFF;
 }
 
-
 .navigation-link {
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
   text-align: center;
-  color: #000000;
-  background-color: #FFFFFF;
   text-decoration: none;
 }
 
-
 .main-logo {
   color: #000000;
-  background-color: #FFFFFF;
+  background-color: #99BED4;
   background-image: url("../img/index-background-logo.jpg");
-  background-size: 1200 485px;
+  background-size: 1200px 485px;
   background-repeat: no-repeat;
 }
-
 
 .advanteges {
   text-align: center;
@@ -121,7 +113,6 @@ body {
 
 .color-container {
   width: 400px;
-  height: 384px;
 }
 
 .blue-theme {
@@ -136,7 +127,6 @@ body {
 
 .white-theme {
   color: #333333;
-  background-color: #FFFFFF;
 }
 
 .dark-grey-theme {
@@ -151,8 +141,6 @@ body {
 }
 
 .hotel-search {
-  color: #000000;;
-  background-color: #FFFFFF;
   text-align: center;
 }
 
@@ -164,35 +152,30 @@ body {
 
 .subscription {
   color: #FFFFFF;
-  background-color: #FFFFFF;
+  background-color: #90ACBA;
   background-image: url("../img/background-subscription.jpg");
-  background-size: 1200 411px;
+  background-size: 1200px 411px;
   background-repeat: no-repeat;
   text-align: center;
 }
 
 .subscription-black {
-  color: #000000;
-  background-color: #FFFFFF;
   text-align: center;
 }
-
 
 .subscription-text {
   font-size: 22px;
   line-height: 26px;
-  color: #FFFFFF;
 }
 
 .footer-contacts {
   font-size: 40px;
   line-height: 40px;
-  color: #000000;
   text-align: center;
   text-transform: uppercase;
 }
 
-.page-footer a {
+.link {
   color: #000000;
 }
 
@@ -203,12 +186,10 @@ body {
 
 .inner-header {
   color: #FFFFFF;
-  background-color: #FFFFFF;
+  background-color: #706B70;
   background-image: url("../img/catalog/catalog-background 1.jpg");
-  background-size: 1200 408px;
+  background-size: 1200px 408px;
   background-repeat: no-repeat;
-  font-size: 18px;
-  line-height: 23px;
 }
 
 .breadcrumbs-link {
@@ -237,7 +218,6 @@ body {
 }
 
 .hotel-card-link-current {
-  color: #FFFFFF;
   background-color: #7DB54F;
 }
 
